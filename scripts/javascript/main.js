@@ -10,6 +10,12 @@ if(btn){
                 <div class="user">
                     <h4>${username.value} - Admin</h4>
                 </div>
+                <div class="hour">
+                    <i>${hour.value}</i>
+                </div>
+                <div class="post">
+                    <p>${post.value}</p>
+                </div>
             </div>
             `
         }
