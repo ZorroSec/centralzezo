@@ -19,22 +19,8 @@ if(btn){
                 </div>
             </div>
             `
-            const copy = `
-            <div class="postContent">
-                <div class="user">
-                    <h4>${username.value} - Admin</h4>
-                </div>
-                <div class="hour">
-                    <i>${hour.value}</i>
-                </div>
-                <div class="post">
-                    <p>${post.value}</p>
-                </div>
-            </div>
-            `
-            
         } else {
-            return username.value
+            console.error('Username is invalid!!')
         }
     }
 }
