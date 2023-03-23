@@ -2,6 +2,7 @@ const btn = document.getElementById('btn')
 const username = document.getElementById('username')
 const post = document.getElementById('post')
 const postConteiner = document.getElementById('postConteiner')
+const hour = document.getElementById('datetimelocal')
 if(btn){
     btn.onclick = ()=>{
         if(username != 'ZezoCentral'){
@@ -18,6 +19,8 @@ if(btn){
                 </div>
             </div>
             `
+        } else {
+            return username.value
         }
     }
 }
