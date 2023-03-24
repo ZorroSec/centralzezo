@@ -27,12 +27,12 @@
     background: #ffffff;
     margin-bottom: 10px;
     text-align: center;
-}#username, #datetimelocal, #post{
+}#username, #datetimelocal, #post, #password{
     outline: none;
     border: none;
     border-bottom: 1px solid #000;
     margin-bottom: 4px;
-}#username, #datetimelocal, #post:hover{
+}#username, #datetimelocal, #password, #post:hover{
     outline: none;
     border: none;
     border-bottom: 1px solid #000;
