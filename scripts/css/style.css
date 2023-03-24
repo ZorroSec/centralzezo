@@ -18,7 +18,7 @@
 }body{
     background: #f2f2f2;
     /* box-shadow: inset 0 0 2.2em rgba(255,255,255,.3); */
-}.infoPost, #infopost, .conteiner{
+}.infoPost, #infoPost, .conteiner{
     margin: auto;
     width: 65%;
     padding: 10px;

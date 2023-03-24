@@ -2,7 +2,7 @@ const username = document.getElementById('username')
 const password = document.getElementById('password')
 const btnLogin = document.getElementById('btnLogin')
 const response = document.getElementById('response')
-const infopost = document.getElementById('infopost')
+const infopost = document.getElementById('infoPost')
 if(btnLogin){
     btnLogin.onclick = ()=>{
         infopost.innerHTML=`
