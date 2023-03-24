@@ -4,22 +4,31 @@ const btnLogin = document.getElementById('btnLogin')
 const response = document.getElementById('response')
 const infopost = document.getElementById('infoPost')
 if(btnLogin){
-    btnLogin.onclick = ()=>{
-        infopost.innerHTML=`
-            <div class="inputUsername">
-                <input type="text" name="username" id="username" placeholder="Username...">
-            </div>
-            <div class="inputHour">
-                <input type="date" name="hour" id="datetimelocal">
-            </div>
-            <div class="inputPostArea">
-                <textarea name="post" id="post" cols="30" rows="10">Hello World</textarea>
-            </div>
-            <div class="btn">
-                <button id="btn">
-                    Send...
-                </button>
-            </div>
+    if(username == 'Zezao'){
+        btnLogin.onclick = ()=>{
+            infopost.innerHTML=`
+                <div class="inputUsername">
+                    <input type="text" name="username" id="username" placeholder="Username...">
+                </div>
+                <div class="inputHour">
+                    <input type="date" name="hour" id="datetimelocal">
+                </div>
+                <div class="inputPostArea">
+                    <textarea name="post" id="post" cols="30" rows="10">Hello World</textarea>
+                </div>
+                <div class="btn">
+                    <button id="btn">
+                        Send...
+                    </button>
+                </div>
+                <div id='postConteiner'>
+                
+                </div>
+            `
+        }
+    } else {
+        response.innerHTML=`
+            <h2 style='color: red;'>INVALID USERNAME!!!</h2>
         `
     }
 }
