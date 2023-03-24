@@ -5,7 +5,7 @@ const response = document.getElementById('response')
 const infopost = document.getElementById('infopost')
 if(btnLogin){
     btnLogin.onclick = ()=>{
-        response.innerHTML=`
+        infopost.innerHTML=`
             <div class="inputUsername">
                 <input type="text" name="username" id="username" placeholder="Username...">
             </div>
