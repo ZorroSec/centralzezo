@@ -25,7 +25,7 @@ btnLogin.onclick = ()=>{
             </div>
         `
     } else {
-        postConteiner.innerHTML=`
+        response.innerHTML=`
             <h2 style='color:red;'>USERNAME IS INVALID!!!</h2>
         `
         console.error('Username is invalid!!')
